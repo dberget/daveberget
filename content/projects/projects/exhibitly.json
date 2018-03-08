@@ -1,0 +1,14 @@
+{
+  "id": "exhibitly",
+  "name": "exhibitly",
+  "tools": [
+    "Ruby on Rails",
+    "React.Js",
+    "React-dnd",
+    "React-Rails",
+    "Mysql",
+    "Bootstrap"
+  ],
+  "description":
+    "Sales tool for creating presentable and shareable lists of work samples based on desired industry, product line, etc."
+}

@@ -1,11 +1,12 @@
 module.exports = {
-  blogPostDir: "sample-posts", // The name of directory that contains your posts.
+  blogPostDir: "posts", // The name of directory that contains your posts.
   blogAuthorDir: "sample-authors", // The name of directory that contains your authors.
+  projectDir: "projects", // The name of directory that contains your authors.
   blogAuthorId: "david", // The default and fallback author ID used for blog posts without a defined author.
   siteTitle: "David Berget", // Site title.
-  siteTitleAlt: "David Berget Portfolio & Blog", // Alternative site title for SEO.
+  siteTitleAlt: "David Berget's Portfolio & Blog", // Alternative site title for SEO.
   siteUrl: "https://davidberget.com", // Domain of your website without pathPrefix.
-  siteDescription: "Web Developer - React | Elixir", // Website description used for RSS feeds/meta description tag.
+  siteDescription: "Web Developer - Elixir | React", // Website description used for RSS feeds/meta description tag.
   siteCover: "/images/familypic.jpg", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
   siteRss: "/rss.xml", // Path to the RSS file.
   siteRssAuthor: "David Berget", // The author name used in the RSS file

@@ -1,0 +1,17 @@
+{
+  "id": "hearthdecks",
+  "name": "Hearthdecks",
+  "url": "http://hearthdecks.daveberget.com/",
+  "tools": [
+    "Elixir/Phoenix",
+    "React.js",
+    "React-Router",
+    "Postgres",
+    "Semantic-UI-React",
+    "Brunch",
+    "SASS"
+  ],
+  "description":
+    "Personal project built for the computer/mobile game Hearthstone. Allows users to create, share, and import decks into the game",
+  "github": "https://github.com/dberget/hearthdecks"
+}
