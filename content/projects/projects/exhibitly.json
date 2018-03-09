@@ -1,7 +1,7 @@
 {
   "id": "exhibitly",
   "name": "Exhibitly",
-  "url": "exhibitly.herokuapp.com",
+  "url": "https://www.exhibitly.herokuapp.com",
   "tools": ["Rails", "React.Js", "React-Rails", "Bootstrap"],
   "description":
     "Sales tool for creating presentable and shareable lists of work samples based on desired industry, product line, etc."
