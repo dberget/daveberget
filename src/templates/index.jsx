@@ -165,6 +165,7 @@ export const pageQuery = graphql`
         node {
           id
           name
+          image
           url
           tools
           description

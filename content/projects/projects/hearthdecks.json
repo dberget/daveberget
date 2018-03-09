@@ -1,6 +1,7 @@
 {
   "id": "hearthdecks",
   "name": "Hearthdecks",
+  "image": "/images/hearthdecks.png",
   "url": "https://www.netdeck.xyz",
   "tools": ["Elixir/Phoenix", "React.js", "Semantic-UI-React", "Sass"],
   "description":

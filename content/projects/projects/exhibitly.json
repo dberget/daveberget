@@ -1,6 +1,7 @@
 {
   "id": "exhibitly",
   "name": "Exhibitly",
+  "image": "/images/exhibitly.png",
   "url": "https://www.exhibitly.herokuapp.com",
   "tools": ["Rails", "React.Js", "React-Rails", "Bootstrap"],
   "description":

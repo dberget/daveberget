@@ -1,6 +1,7 @@
 {
   "id": "sherpa",
   "name": "Sherpa",
+  "image": "/images/sherpa.png",
   "url": "http://www.sherpa.dashe.com",
   "tools": ["Elixir/Phoenix", "Semantic-UI"],
   "description":
