@@ -1,7 +1,7 @@
 {
   "id": "hearthdecks",
   "name": "Hearthdecks",
-  "url": "http://hearthdecks.daveberget.com/",
+  "url": "www.netdeck.xyz",
   "tools": ["Elixir/Phoenix", "React.js", "Semantic-UI-React", "Sass"],
   "description":
     "Personal project built for the computer/mobile game Hearthstone. Allows users to create, share, and import decks into the game.",

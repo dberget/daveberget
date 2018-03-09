@@ -23,7 +23,9 @@ class ProjectContent extends React.Component {
             <div className="project-card" key={name}>
               <div>
                 <h4 className="project-name">
-                  <Link to={url}>{name}</Link>
+                  <a target="_blank" href={url}>
+                    <h4>{name}</h4>
+                  </a>
                 </h4>
               </div>
               <section className="project-description">
