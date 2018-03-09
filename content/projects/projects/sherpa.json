@@ -1,6 +1,7 @@
 {
   "id": "sherpa",
   "name": "Sherpa",
+  "url": "www.sherpa.dashe.com",
   "tools": ["Elixir/Phoenix", "Semantic-UI"],
   "description":
     "Internal tool at Dashe & Thomson, serves as a way to track project and assignment information across the company."

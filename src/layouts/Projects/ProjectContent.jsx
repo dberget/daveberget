@@ -29,11 +29,7 @@ class ProjectContent extends React.Component {
               <section className="project-description">
                 <p>{description}</p>
               </section>
-              <div>
-                {tools.map(tool => (
-                  <span className="project-tools"> {tool}, </span>
-                ))}
-              </div>
+              <span className="project-tools">{tools.join(", ")}</span>
             </div>
           )
         })}
