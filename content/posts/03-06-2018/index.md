@@ -1,5 +1,5 @@
 ---
-title: "Phoenix Channels"
+title: "Adding a channel to a Phoenix React project"
 cover: "https://unsplash.it/1280/500/?random?BoldMage"
 author: "david"
 date: "03/06/2018"
@@ -12,7 +12,7 @@ tags:
     - channels
 ---
 
-## Adding a channel to a Phoenix React project.
+## Adding a channel to a Phoenix React project
 
 I finally found a nice excuse for messing around with Phoenix channels.
 
