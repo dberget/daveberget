@@ -12,7 +12,7 @@ module.exports = {
   siteRssAuthor: "David Berget", // The author name used in the RSS file
   // siteFBAppID: "1825356251115265", // optional, sets the FB Application ID for using app insights
   sitePaginationLimit: 10, // The max number of posts per page.
-  googleAnalyticsID: "UA-111982167-1", // GA tracking ID.
+  googleAnalyticsID: "UA-115779891-1", // GA tracking ID.
   siteSocialUrls: [
     "https://github.com/dberget",
     "https://twitter.com/dberget",

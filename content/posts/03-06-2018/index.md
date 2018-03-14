@@ -1,5 +1,5 @@
 ---
-title: "Adding a channel to a Phoenix React project"
+title: "Phoenix & React Channel"
 cover: "https://unsplash.it/1280/500/?random?BoldMage"
 author: "david"
 date: "03/06/2018"
@@ -12,9 +12,9 @@ tags:
     - channels
 ---
 
-## Adding a channel to a Phoenix React project
+## Adding a channel to Hearthdecks
 
-I finally found a nice excuse for messing around with Phoenix channels.
+I finally found a nice excuse for messing around with Phoenix channels. I decided to start saving the deckstring whenever a user exports a deck in [hearthdecks](https://netdeck.xyz), this will be a pretty straighforward implementation. For an actual tutorial I recommend the official Phoenix docs on [Channels](https://hexdocs.pm/phoenix/Phoenix.Channel.html), they are very well done.
 
 ## Server Side
 
