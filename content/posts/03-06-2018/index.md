@@ -38,7 +38,7 @@ end
 
 Next we'll create our new DeckChannel module, this will be what is handling any messages sent from the client. The first argument "room" in our join function is the topic, it matches with the channel we defined in our socket module, and also what we'll be initializing our channel connection to from React. All we need to do is return :ok, along with the socket info.
 
-The handle_in function takes an event command that is a string, "create_deck", and our deckstring value. By letting us use pattern matching on the string, its easy to to have multiple handle_in functions that all perform different operations. Handle_in then calls create_deck/1 to save the deckstring to the DB. The client doesn't care since about the operation in this use case so we're just returning :noreply.
+handle_in/3 takes an event command that is a string, "create_deck", and our deckstring value. By letting us use pattern matching on the string, its easy to to have multiple handle_in functions that all perform different operations. Handle_in then calls create_deck/1 to save the deckstring to the DB. The client doesn't care since about the operation in this use case so we're just returning :noreply.
 
 ```elixir
 defmodule HearthdecksWeb.DeckChannel do
@@ -71,7 +71,7 @@ export default socket
 
 Our implementation is going to all go in one React component that is handling the deck exports, a better way to do this would be to wrap the functionality in a Higher order Component or in your middleware and then call any pushes to your channel in a reducer.
 
-First off, make sure you import socket from socket.js. We've created setPhoenixChannel() that we're going to call on componentDidMount(), this function is going to call socket.channel, notice we're pass in "room", which matches with the declared "room" topic in our elixir modules. We're going to stash away channel in our components state so we can reference it when we actually want to transport our data.
+First off, make sure you import socket from socket.js. We've created setPhoenixChannel() that we're going to call in componentDidMount(), this function is going to call socket.channel, notice we're pass in "room", which matches with our "room" topic in phoenix modules. We're going to stash away channel in our components state so we can reference it when we actually want to transport our data.
 
 Finally, when we are generating a deck string for a user, we grab channel in our components state, and push a message that has our desired event, "create_deck", and the created deckstring. If we wanted to do something based on success or not we could handle that in receive.
 
